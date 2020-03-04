@@ -1,8 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 * {
   margin: 0px;
   padding: 0px;
 }
-body {
+html {
+  box-sizing: border-box;
+}
+
+html ::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
   font-family: "Playfair Display", "Ubuntu";
 }
 header {
@@ -37,7 +54,6 @@ header {
   font-family: "Playfair Display-regular";
   font-size: 14px;
 }
-.main-menu-link-active,
 .main-menu-link:hover {
   color: #03a9f4;
 }
@@ -68,7 +84,7 @@ header {
 }
 
 .theme {
-  padding: 32px;
+  margin-bottom: 32px;
   color: #b4ad9e;
   font-size: 14px;
   font-family: "Ubuntu";
@@ -77,7 +93,7 @@ header {
   text-align: left;
 }
 h2 {
-  padding-top: 28px 0 0 0;
+  margin-bottom: 28px;
   color: #626262;
   font-size: 30px;
   font-family: "Playfair Display-regular";
@@ -85,7 +101,7 @@ h2 {
   text-align: center;
 }
 .text {
-  padding-top: 34px;
+  margin-bottom: 34px;
   color: #626262;
   font-size: 14px;
   font-family: "Playfair Display-regular", sans-serif;
@@ -104,4 +120,8 @@ h2 {
   color: #626262;
   font-size: 20px;
   font-family: serif;
+}
+
+.btn:hover {
+  color: #03a9f4;
 }
