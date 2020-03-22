@@ -45,7 +45,7 @@ header {
   font-size: 0;
 }
 .header__nav-item {
-  display: inline;
+  float: left;
   margin-right: 25px;
   font-size: 16px;
 }
@@ -53,6 +53,7 @@ header {
   margin-right: 0;
 }
 .header__nav-link {
+  display: block;
   color: #0f0101;
   font-size: 14px;
   font-weight: 700;
@@ -102,7 +103,9 @@ header {
   .products__item:hover .products__desc{
   background-color: #1abc9c;
 }
-
+.products__item:hover .products__price{
+  background-color: #1abc9c;
+}
 .products__item :nth-last-of-type(4n) {
   margin-right: 0;
 }
