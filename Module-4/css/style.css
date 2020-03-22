@@ -8,9 +8,9 @@ body {
 }
 .wrapper {
   width: 100%;
-  max-width: 1185px;
+  max-width: 1140px;
   margin: auto;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-right: 15px;
   box-sizing: border-box;
 }
@@ -24,12 +24,12 @@ header {
 }
 .header__logotip {
   float: left;
-  padding-left: 39px;
   color: #555252;
   font-size: 30px;
   font-family: "Roboto-Light", sans-serif;
   line-height: 1;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .header__logotip::first-letter {
   color: #1abc9c;
@@ -38,17 +38,20 @@ header {
 .header__navigation {
   float: right;
 }
-.header__nav-list {
+.header__nav-list{
+  padding: 0;
   list-style: none;
   text-align: center;
   font-size: 0;
 }
 .header__nav-item {
-  display: inline-block;
+  display: inline;
   margin-right: 25px;
   font-size: 16px;
 }
-
+.header__nav-item :last-of-type {
+  margin-right: 0;
+}
 .header__nav-link {
   color: #0f0101;
   font-size: 14px;
@@ -62,7 +65,7 @@ header {
 }
 
 .h2 {
-  padding-bottom: 80px;
+  margin: 0 0 65px 0;
   color: #515151;
   font-family: "Open Sans", sans-serif;
   font-size: 48px;
@@ -82,21 +85,26 @@ header {
 .section {
   padding-bottom: 75px;
 }
+.products__list {
+  margin: 0;
+  padding: 0;
+}
 .products__item {
   float: left;
   width: 256px;
   margin-right: 22px;
-  margin-bottom: 22px;
+  padding-bottom: 15px;
   font-family: "Roboto-Black", sans-serif;
   list-style: none;
+  text-decoration: none;
   cursor: pointer;
 }
-.products__item:hover .products__desc {
+  .products__item:hover .products__desc{
   background-color: #1abc9c;
 }
-.products__item :nth-child(4n) {
+
+.products__item :nth-last-of-type(4n) {
   margin-right: 0;
-  margin-bottom: 0;
 }
 .products__cover {
   display: block;
@@ -110,6 +118,7 @@ header {
   font-weight: 700;
   line-height: 41px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .products__name {
   float: left;
@@ -121,19 +130,25 @@ header {
   padding-right: 15px;
   background-color: #8c8c8c;
 }
+.news__list {
+  padding-left: 0;
+}
 .news__item {
   float: left;
-  width: 350px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  width: 100%;
+  max-width: 350px;
+  padding-right: 21px;
   list-style: none;
 }
-
+.news__item:last-of-type {
+  margin-right: 0;
+} 
 .news__cover {
   display: block;
   width: 100%;
   margin-bottom: 11px;
 }
+
 .news__title {
   color: #555252;
   font-size: 18px;
