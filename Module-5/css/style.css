@@ -150,6 +150,10 @@ header {
     line-height: 1.5;
     text-transform: uppercase;
 }
+.section {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
 .h2 {
   padding-top: 75px;
   padding-bottom: 89px;
@@ -169,7 +173,9 @@ header {
   margin: 23px auto 0;
   background-color:#1ABC9C;
 }
-
+.products {
+  background-color: #E9F0FD;
+}
 .products__item {
   counter-increment: count-products;
   float: left;
@@ -244,7 +250,9 @@ header {
   border-color: #1ABC9C
 }
 .product__actions-link {
+    width: 100%;
     color: #fff;
+    background-color: transparent;
     font-family: 'Open sans', sans-serif;
     text-transform: uppercase;
     vertical-align: middle;
@@ -288,7 +296,6 @@ header {
  footer .information {
   position: relative;
   height: 89px;
-  margin-top: 50px;
   padding-top: 40px;
   background: #323232;
 }
