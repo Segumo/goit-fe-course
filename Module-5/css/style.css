@@ -245,10 +245,7 @@ header {
   margin-top: 8px;
   background-color: #323232;
 }
-.product__actions-item:hover {
-  background-color: #1ABC9C;
-  border-color: #1ABC9C
-}
+
 .product__actions-link {
     width: 100%;
     color: #fff;
@@ -258,6 +255,10 @@ header {
     vertical-align: middle;
     text-decoration: none;
 } 
+.product__actions-link:hover {
+  background-color: #1ABC9C;
+  border-color: #1ABC9C
+}
 .product__actions-link-text {
   padding-left: 5px;
   user-select: none;
