@@ -158,8 +158,56 @@ margin-bottom: 0;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+.photografy {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../icons/icon-1.png);
+  width: 40px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.web-design {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../icons/icon-2.png);
+  width: 40px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.creativity {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../icons/icon-3.png);
+  width: 40px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.seo {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../icons/icon-4.png);
+  width: 40px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.css-htmi {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../icons/icon-5.png);
+  width: 40px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.digital {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../icons/icon-6.png);
+  width: 40px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
 .type__of__specification {
-  padding-left: 20px;
+  padding-left: 15px;
   font-size: 14px;
   font-family: var(--ff-montserrat);
   text-transform: uppercase;
@@ -249,7 +297,7 @@ margin-bottom: 0;
   padding-top: 30px;
   text-align: center;
   background-color: var(--yellow-color);
-  background-image: url('../icons/icon-7.png/');
+  background-image: url('../icons/icon-7.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -260,7 +308,7 @@ margin-bottom: 0;
   padding-top: 30px;
   text-align: center;
   background-color: var(--yellow-color);
-  background-image: url('../icons/icon-8.png/');
+  background-image: url('../icons/icon-8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -271,7 +319,7 @@ margin-bottom: 0;
   padding-top: 30px;
   text-align: center;
   background-color: var(--yellow-color);
-  background-image: url('../icons/icon-9.png/');
+  background-image: url('../icons/icon-9.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -282,7 +330,7 @@ margin-bottom: 0;
   padding-top: 30px;
   text-align: center;
   background-color: var(--yellow-color);
-  background-image: url('../icons/icon-7.png/');
+  background-image: url('../icons/icon-10.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -309,6 +357,7 @@ margin-bottom: 0;
 }
 .footer {
   padding-top: 93px;
+  border-top: 1px solid gray; 
 }
 .footer-list {
   display: flex;

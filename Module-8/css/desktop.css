@@ -1,0 +1,41 @@
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1420px;
+    }
+    .header {
+        padding-top: 57px;
+      
+      }
+    
+      .header__logo {
+        margin-top: 0;
+        padding-left: 250px;
+      }
+      .header__list-item {
+        padding-right: 250px;
+      }
+      .first-section__inner {
+        min-height: 100vh;
+        min-width: 1400px;
+        box-sizing: border-box;
+        background-image: url("../img/good-company.png");
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 170px;
+      }
+
+      .second-section__inner {
+          max-width: 940px;
+          margin-left: 250px;
+      }
+      
+      .second-section-list {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    
+      .second-section-item {
+        width: 25%;
+      }
+    }
+}
