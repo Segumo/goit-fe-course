@@ -123,9 +123,7 @@ section {
 .specification : :last-child {
 margin-right: 0;
 }
-.specification-about {
-  height: 230px;
-}
+
 .E-Commerce {
   display: block;
   width: 100%;
@@ -186,15 +184,7 @@ margin-right: 0;
   display: flex;
   width: 100%;
   max-width: 940px;
-  height: 400px;
   justify-content: flex-start;
-}
-.input-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  list-style: none;
-
 }
 
 .input-type {
@@ -225,7 +215,7 @@ margin-right: 0;
 
 .button {
     position: absolute;
-    bottom: 10%;
+    top: 100%;
     right: 40%;
     width: 240px;
     height: 65px;
