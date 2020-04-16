@@ -1,6 +1,6 @@
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
     .container {
-        max-width: 1420px;
+        max-width: 940px;
     }
     .header {
         padding-top: 57px;
@@ -9,15 +9,10 @@
     
       .header__logo {
         margin-top: 0;
-        padding-left: 250px;
       }
-      .header__list-item {
-        padding-right: 250px;
-      }
-      .first-section__inner {
+     
+      .first-section {
         min-height: 100vh;
-        min-width: 1400px;
-        box-sizing: border-box;
         background-image: url("../img/good-company.png");
         background-position: center;
         background-size: cover;
@@ -26,7 +21,6 @@
 
       .second-section__inner {
           max-width: 940px;
-          margin-left: 250px;
       }
       
       .second-section-list {
@@ -36,6 +30,9 @@
     
       .second-section-item {
         width: 25%;
+      }
+      .second-section-item :last-child {
+        margin-right: 0;
       }
     }
 }
