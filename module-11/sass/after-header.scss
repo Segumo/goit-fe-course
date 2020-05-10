@@ -1,0 +1,41 @@
+.section__mogo {
+  padding-bottom: 220px;
+}
+
+.section__title--mogo {
+  color: $color_white;
+  font-size: 150px;
+  line-height: 140px;
+  width: 820px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+&::after {
+  display: none;
+}
+
+.section__span-mogo {
+  color: $color_white;
+  font-size: 72px;
+  padding-bottom: 42px;
+}
+
+.section__button {
+  display: flex;
+  font-family: $montserrat-fonts;
+  color: $color_white;
+  font-weight: 700;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  border: 3px solid $color_white;
+  padding: 12px 30px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+&:hover {
+  background-color: $color_coral;
+}

@@ -1,0 +1,52 @@
+.footer__information {
+  border-top: 1px solid $color_lightgray;
+  height: 64px;
+  display: flex;
+  position: relative;
+}
+
+.footer p {
+  color: $color_black;
+  font-family: $montserrat-fonts;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.footer span {
+  color: $color_coral;
+}
+
+.input {
+  font-family: $roboto-fonts;
+  font-weight: 300;
+  position: absolute;
+  border: 1px solid $color_lightgray;
+  top: 12px;
+  right: 149px;
+  width: 229px;
+  height: 32px;
+
+&::placeholder {
+  font-family: $roboto-fonts;
+  font-weight: 300;
+  color: $color_lightgray;
+}
+}
+
+.button__footer {
+  font-family: $montserrat-fonts;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background-color: $color_seagreen;
+  color: $color_white;
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 150px;
+  height: 36px;
+  cursor: pointer;
+}

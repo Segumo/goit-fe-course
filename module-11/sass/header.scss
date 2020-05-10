@@ -1,0 +1,78 @@
+  .header {
+    background-image: url("../img/Layer15.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+  }
+  
+  .gradients {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    );
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-bottom: 160px;
+  }
+  
+  .nav__logo {
+    font-family: $montserrat-fonts;
+    font-size: 30px;
+    align-self: center;
+    line-height: 1.2;
+  }
+  
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 620px;
+  }
+  .header-nav__item {
+
+    &last-child {
+      margin-right: 0;
+    }
+  }
+  
+  .nav__link {
+    font-family: $montserrat-fonts;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    transition: 0.2s;
+  
+  
+  &:hover {
+    color: $color_yellow;
+  }
+  
+  &::after {
+    background-color: transparent;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.2s;
+  }
+  
+  &:hover::after {
+    background-color: $color_yellow;
+  }
+}
+  .nav__link-icon {
+    fill: $color_white;
+  
+  
+  &:hover {
+    fill: $color_yellow;
+  }
+}
